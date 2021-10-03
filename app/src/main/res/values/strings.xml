@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pogoda</string>
+    <string name="logo">Погода в городище</string>
+    <string name="hint_user_field">Выбирай городище</string>
+    <string name="main_btn">Жмакать сюда</string>
+    <string name="no_user_input">Надо что-то натыкать</string>
+</resources>
