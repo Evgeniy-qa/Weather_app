@@ -104,7 +104,9 @@ public class MainActivity extends AppCompatActivity {
 
             try {
                 JSONObject jsonObject = new JSONObject(result);
+
                 result_info.setText(" Город  " + jsonObject.getString("name") + " Температура " + jsonObject.getJSONObject("main").getDouble("temp") + " Скорость ветра м/с  " + jsonObject.getJSONObject("wind").getDouble("speed") + " Влажность " + jsonObject.getJSONObject("main").getDouble("humidity"));
+
 
             } catch (JSONException e) {
                 e.printStackTrace();
